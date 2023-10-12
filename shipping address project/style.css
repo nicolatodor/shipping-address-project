@@ -1,0 +1,1028 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    
+    font-family: Poppins;
+    margin: 0px;
+}
+
+
+
+.parent{
+
+/* border-right: solid 1px; */
+
+border: solid 1px;
+
+border-radius: 20px;
+
+margin: auto;
+
+/* background-color: pink; */
+
+margin-top: 100px;
+
+/* margin-right: 100px; */
+
+/* margin-left: 100px; */
+
+width: 70%;
+
+height: 73vh;
+}
+
+.shipping_left{
+
+margin-top: -38px;
+
+border-right: solid 1px #cecece;
+
+width: 60%;
+
+height: 515px;
+}
+
+.head{
+    
+margin-top: 39px;
+    
+margin-left: 150px;
+    
+font-size: 24px;
+    
+font-weight: 500;
+}
+
+.info_order{
+    
+margin-top: 4px;
+    
+margin-left: 35px;
+}
+
+.optional{
+
+border: solid 0.3px #060505;
+
+border-radius: 8px;
+
+padding: 9px;
+
+margin-top: 10px;
+
+width: 500px;
+}
+
+.textarea{
+    /* border-radius: 8px; */
+    margin-top: 10px;
+    width: 511px;
+    height: 132px;
+    resize: none;
+    
+}
+.txtar{
+    resize: none;
+
+}
+    
+
+
+
+ 
+
+        
+
+.name{
+
+padding: 8px;
+
+margin-top: 15px;
+
+border-radius: 8px;
+
+border: solid 1px;
+
+display: flex;
+
+width: 500px;
+
+/* margin-left: 100px; */
+
+/* display: flex; */
+
+justify-content: center;
+}
+.pin{
+
+display: flex;
+
+padding: 8px;
+
+width: 500px;
+
+margin-top: 15px;
+
+border: solid 1px;
+
+border-radius: 8px;
+
+/* margin-left: 100px; */
+
+justify-content: space-between;
+}
+
+.city{
+
+display: flex;
+
+width: 500px;
+
+border: solid 1px;
+
+border-radius: 8px;
+
+padding: 8px;
+
+margin-top: -12px;
+
+margin-bottom: 16px;
+
+/* margin-left: 100px; */
+}
+
+.name_item{
+
+border-radius: 7px;
+
+border: solid 0.3px #cacaca;
+
+padding: 3px;
+
+/* display: flex; */
+
+width: 261px;
+
+margin-right: 3px;
+}
+
+.city_item{
+
+border: solid 0.3px #cacacaca;
+
+margin-right: 4px;
+
+border-radius: 5px;
+
+padding: 3px;
+
+display: flex;
+
+justify-content: space-between;
+
+width: 241px;
+
+flex-wrap: nowrap;
+}
+.pin_item{
+    
+}
+
+.billing{
+    
+width: -webkit-fill-available;
+    
+display: flex;
+    
+}
+
+.pin_item {
+
+border: solid 0.3px #cacaca;
+
+padding: 3px;
+
+border-radius: 7px;
+
+width: 239px;
+
+display: flex;
+
+flex-wrap: nowrap;
+
+align-content: center;
+
+justify-content: space-evenly;
+
+align-items: center;
+}      
+.check{
+    
+margin-right: 5px;
+    
+margin-left: 30px;
+}    
+
+.add_adr{
+    
+margin-left: 39px;
+cursor :crosshair;
+    
+color: #04be04;
+    
+font-weight: 500;
+}
+    
+
+.order_main{
+    
+border-radius: 8px;
+    
+font-weight: 600;
+    
+font-size: 16px;
+    
+margin-top: 10px;
+    
+color: white;
+    
+height: 35px;
+    
+width: 517px;
+    
+background-color: #04be04;
+}
+
+.order_right{
+
+/* display: flex; */
+
+margin-left: 12px;
+
+width: 40%;
+
+flex-wrap: wrap;
+
+align-content: center;
+
+justify-content: center;
+
+align-items: center;
+}
+
+
+.order_wrap{
+
+/* background-color: pink; */
+
+display: flex;
+
+margin-top: -540px;
+
+margin-left: 635px;
+
+width: 100%;
+
+height: 563px;
+
+flex-wrap: wrap;
+
+align-content: center;
+
+justify-content: flex-start;
+
+align-items: center;
+}
+
+.process_order{font-size: 15px;margin-left: 38px;margin-top: -29px;margin-bottom: 104px;}
+.order_header{
+        
+margin-left: -238px;
+       }
+
+.order_one{
+
+padding: 5px;
+
+margin-left: -132px;
+
+width: 368px;
+
+/* border: solid 1px; */
+
+margin-top: 99px;
+
+display: flex;
+
+/* margin-top: 97px; */
+
+justify-content: space-between;
+}
+.order_item{
+    
+/* width: 180px; */
+    
+/* border: solid 0.3px grey; */
+}
+       .delivery{
+
+display: flex;
+
+padding: 5px;
+
+margin-left: 19px;
+
+width: 368px;
+
+/* border: solid 0.3px; */
+
+display: flex;
+
+align-content: center;
+
+justify-content: space-between;
+}
+.delivery_item{
+    
+}
+
+    
+
+.diliver_sum{
+
+margin-bottom: 1px;
+
+margin-left: 24px;
+
+font-weight: 500;
+
+font-size: 20px;
+
+margin-top: 12px;
+
+display: flex;
+
+/* display: flex; */
+}
+.elivery_txt{
+
+}
+   .delivery_info{
+
+width: 394px;
+
+margin-left: 17px;
+
+height: 110px;
+
+/* border-bottom: solid 0.3px grey; */
+
+display: flex;
+
+/* align-content: center; */
+
+flex-direction: row;
+
+flex-wrap: wrap;
+
+/* align-items: center; */
+}
+.delivery_img{
+    
+border-radius: 8px;
+    
+margin-top: 8px;
+    
+height: 94px;
+    
+margin-left: 8px;
+    
+width: 106px;
+    
+border: solid 1px;
+}
+.delivery_txthead{
+    
+margin-top: 11px;
+    
+margin-left: 19px;
+}
+       .delivery_desc{
+
+margin-top: -69px;
+
+margin-left: 136px;
+
+}
+       .delivery_sum{
+        
+       }
+.delivery_infoyn{
+
+}
+
+.pay{
+
+margin-left: 20px;
+
+width: 382px;
+
+border-top: solid 1px grey;
+
+margin-top: 26px;
+
+display: flex;
+}
+
+        .pay_item{
+            
+margin-top: 10px;
+            
+margin-left: 47px;
+            
+width: 298px;
+            
+display: flex;
+            
+justify-content: space-between;
+            
+align-items: center;
+            
+align-content: center;
+        }
+        .payr_main{
+
+font-size: 16px;
+
+border-radius: 8px;
+
+height: 35px;
+
+margin-left: 59px;
+
+background-color: #fd3636;
+
+width: 284px;
+
+margin-top: 14px;
+
+color: white;
+}
+
+
+.change_opt{
+    
+margin-left: 136px;
+    
+margin-top: -50px;
+    
+width: 250px;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+align-content: center;
+    
+align-items: center;
+    
+flex-wrap: nowrap;
+}
+
+
+/* RESPONSIVE PART DOWN  */
+
+
+
+@media only screen and (max-width: 600px) {
+
+       .parent{
+
+border: none;
+
+/* margin-bottom: 1px; */
+
+margin-left: 21px;
+
+/* border: solid 1px; */
+
+/* border-radius: 20px; */
+
+/* background-color: pink; */
+
+margin-top: 11px;
+
+/* margin-right: 100px; */
+
+margin-left: 154px;
+
+width: 376px;
+
+height: 115vh;
+}
+              
+              .shipping_left{
+              
+margin-left: -26px;
+              
+margin-left: -17px;
+              
+in-top: -23px;
+              
+border-right: solid 1px #fff6f6;
+              
+width: 50%;
+              
+height: 542px;
+              }
+              
+              .head{
+                  
+width: 272px;
+                  
+text-align: -webkit-center;
+                  
+justify-content: center;
+                  
+margin-top: 39px;
+                  
+margin-left: 67px;
+                  
+font-size: 24px;
+                  
+font-weight: 500;
+              }
+              
+              .info_order{
+                  
+              margin-top: 4px;
+                  
+              margin-left: 35px;
+              }
+              
+              .optional{
+              
+margin-left: -7px;
+              
+border: solid 0.3px #060505;
+              
+border-radius: 8px;
+              
+padding: 9px;
+              
+margin-top: 10px;
+              
+width: 220%;
+              }
+              
+              .textarea{
+                  /* border-radius: 8px; */
+                  margin-top: 10px;
+                  width: 511px;
+                  height: 132px;
+                  resize: none;
+                  
+              }
+              .txtar{
+                  resize: none;
+              
+              }
+                  
+              
+              
+              
+               
+              
+                      
+              
+              .name{
+              
+padding: 8px;
+              
+margin-top: 15px;
+              
+border-radius: 8px;
+              
+border: solid 1px;
+              
+display: flex;
+              
+width: 220%;
+              
+margin-left: -7px;
+              
+/* display: flex; */
+              
+justify-content: center;
+              }
+              .pin{
+              
+display: flex;
+              
+padding: 8px;
+              
+width: 220%;
+              
+margin-top: 15px;
+              
+border: solid 1px;
+              
+border-radius: 8px;
+              
+margin-left: -7px;
+              
+justify-content: space-between;
+              }
+              
+              .city{
+              
+display: flex;
+              
+width: 220%;
+              
+border: solid 1px;
+              
+border-radius: 8px;
+              
+padding: 8px;
+              
+margin-top: -12px;
+              
+margin-bottom: 16px;
+              
+margin-left: -8px;
+              }
+              
+              .name_item{
+              
+              border-radius: 7px;
+              
+              border: solid 0.3px #cacaca;
+              
+              padding: 3px;
+              
+              /* display: flex; */
+              
+              width: 261px;
+              
+              margin-right: 3px;
+              }
+              
+              .city_item{
+              
+              border: solid 0.3px #cacacaca;
+              
+              margin-right: 4px;
+              
+              border-radius: 5px;
+              
+              padding: 3px;
+              
+              display: flex;
+              
+              justify-content: space-between;
+              
+              width: 241px;
+              
+              flex-wrap: nowrap;
+              }
+              .pin_item{
+                  
+              }
+              
+              .billing{
+                  
+margin-left: -41px;
+                  
+width: 424px;
+                  
+display: flex;
+                  
+align-content: center;
+                  
+justify-content: flex-start;
+                  
+flex-wrap: wrap;
+                  
+align-items: center;
+                  
+flex-direction: row;
+              }
+              
+              .pin_item {
+              
+              border: solid 0.3px #cacaca;
+              
+              padding: 3px;
+              
+              border-radius: 7px;
+              
+              width: 239px;
+              
+              display: flex;
+              
+              flex-wrap: nowrap;
+              
+              align-content: center;
+              
+              justify-content: space-evenly;
+              
+              align-items: center;
+              }      
+              .check{
+                  
+/* width: 408px; */
+                  
+/* margin-right: -9px; */
+                  
+/* margin-left: 7px; */
+              }    
+              
+              .add_adr{
+                  
+margin-left: 12px;
+                  
+cursor :crosshair;
+                  
+color: #04be04;
+                  
+font-weight: 500;
+              }
+                  
+              
+              .order_main{
+                  
+margin-left: 2px;
+                  
+border-radius: 8px;
+                  
+font-weight: 600;
+                  
+font-size: 16px;
+                  
+margin-top: 34px;
+                  
+color: white;
+                  
+height: 35px;
+                  
+width: 325px;
+                  
+background-color: #04be04;
+              }
+              
+              .order_right{
+              
+/* display: flex; */
+              
+/* margin-left: 12px; */
+              
+width: 100%;
+              
+flex-wrap: wrap;
+              
+align-content: center;
+              
+justify-content: center;
+              
+align-items: center;
+              }
+              
+              
+              .order_wrap{
+              
+/* background-color: pink; */
+              
+display: flex;
+              
+margin-top: -19px;
+              
+margin-left: 316px;
+              
+width: 567px;
+              
+height: 507px;
+              
+flex-wrap: wrap;
+              
+margin-left: -10px;
+              
+ter;
+              
+width: 579px;
+              
+justify-content: flex-start;
+              
+align-items: center;
+              
+align-content: center;
+              }
+              
+              .process_order{/* width: -webkit-fill-available; *//* border-top: solid 2px; */font-size: 14px;margin-left: 68px;margin-top: -138px;margin-bottom: 104px;}
+              .order_header{
+                      
+margin-bottom: 8px;
+                      
+margin-left: -272px;
+                     }
+              
+              .order_one{
+              
+padding: 5px;
+              
+margin-left: -132px;
+              
+width: 368px;
+              
+/* border: solid 1px; */
+              
+margin-top: -54px;
+              
+display: flex;
+              
+/* margin-top: 97px; */
+              
+justify-content: space-between;
+              }
+              .order_item{
+                  
+margin-top: -6px;
+                  
+/* width: 180px; */
+                  
+/* border: solid 0.3px grey; */
+              }
+                     .delivery{
+              
+margin-top: -299px;
+              
+display: flex;
+              
+/* padding: 4px; */
+              
+margin-left: -2px;
+              
+width: -34px;
+              
+/* border: solid 0.3px; */
+              
+display: flex;
+              
+align-content: center;
+              
+justify-content: space-between;
+              }
+              .delivery_item{
+                  
+              }
+              
+                  
+              
+              .diliver_sum{
+              
+margin-bottom: -78px;
+              
+margin-left: -374px;
+              
+font-weight: 500;
+              
+font-size: 20px;
+              
+margin-top: -191px;
+              
+display: flex;
+              
+/* display: flex; */
+              }
+              .elivery_txt{
+              
+              }
+                 .delivery_info{
+              
+margin-left: -194px;
+              
+margin-top: 48px;
+              
+/* width: 425px; */
+              
+width: 360px; 17px;
+              
+height: 99px;
+              
+/* border-bottom: solid 0.3px grey; */
+              
+display: flex;
+              
+/* align-content: center; */
+              
+flex-direction: row;
+              
+flex-wrap: wrap;
+              
+/* align-items: center; */
+              }
+              .delivery_img{
+                  
+              border-radius: 8px;
+                  
+              margin-top: 8px;
+                  
+              height: 94px;
+                  
+              margin-left: 8px;
+                  
+              width: 106px;
+                  
+              border: solid 1px;
+              }
+              .delivery_txthead{
+                  
+              margin-top: 11px;
+                  
+              margin-left: 19px;
+              }
+                     .delivery_desc{
+              
+              margin-top: -69px;
+              
+              margin-left: 136px;
+              
+              }
+                     .delivery_sum{
+                      
+                     }
+              .delivery_infoyn{
+              
+              }
+              
+              .pay{
+              
+margin-left: 6px;
+              
+width: 303px;
+              
+border-top: solid 1px grey;
+              
+width: 362px;26px;
+              
+display: flex;
+              }
+              
+                      .pay_item{
+                          
+              margin-top: 10px;
+                          
+              margin-left: 47px;
+                          
+              width: 298px;
+                          
+              display: flex;
+                          
+              justify-content: space-between;
+                          
+              align-items: center;
+                          
+              align-content: center;
+                      }
+                      .payr_main{
+              
+font-size: 16px;
+              
+border-radius: 8px;
+              
+height: 35px;
+              
+margin-left: 16px;
+              
+background-color: #fd3636;
+              
+width: 325px;
+              
+margin-top: 29px;
+              
+color: white;
+              }
+              
+              
+              .change_opt{
+                  
+margin-left: 136px;
+                  
+margin-top: -14px;
+                  
+width: 250px;
+                  
+display: flex;
+                  
+justify-content: space-between;
+                  
+align-content: center;
+                  
+align-items: center;
+                  
+flex-wrap: nowrap;
+              }
+              
+}
+       
